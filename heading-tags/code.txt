@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>
+        heading tags
+    </title>
+</head>
+<body>
+    <h1>
+        WELCOME TO HTML TAGS
+    </h1>
+    <h2>
+        THIS IS SECOND TAG OF HTML
+    </h2>
+    <h3>
+        THIS IS THE THIRD TAG OF HTML
+    </h3>
+    <h4>
+        THIS ONE IS THE FOURTH TAG F HTML
+    </h4>
+    <h5>THE SECOND LAST TAG OF HTML</h5>
+    <h6>
+        AND THE LAST TAG OF HTML WHICH IS SIXTH TAG
+    </h6>
+    
+</body>
+</html>

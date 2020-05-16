@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Form
+    </title>
+</head>
+    <body style="background-color: bisque;">
+        <form>
+            <fieldset>
+                <legend>Student Info</legend>
+                    <label> NAME</label><br> 
+                    <input type="text" placeholder="enter full name"> <br><br>
+
+                    <label> EMAIL<br></label> 
+                    <input type="email" placeholder="enter email-id"> <br><br>
+
+                    <label> PASSWORD<br></label>
+                    <input type="text" placeholder="enter password"> <br><br>
+
+                    <label> MOBILE NO <br></label>
+                    <input type="number" placeholder="enter mobile no"> <br><br>
+
+                    <label> DOB<br></label> 
+                    <input type="date" min="2020-02-02" max="2030-03-03"> <br><br>
+                    
+                    <label> EDUCATION <br></label>
+                    <input type="checkbox" >10th <br>
+                    <input type="checkbox" >12th <br>
+                    <input type="checkbox" >DIPLOMA <br>
+                    <input type="checkbox" >BE <br>
+                    <input type="checkbox" >MS <br><br>
+
+                    <label> GENDER<br></label>  
+                    <input type="radio" name="gender">Male <br>
+                    <input type="radio" name="gender">Female <br>
+                    <input type="radio" name="gender">Other  <br><br>
+
+                    <label>SELECT STATE:</label> <br>
+                    <select>
+                        <option>Maharashtra</option>
+                        <option>Telangana</option>
+                        <option>Goa</option>
+                        <option>Dehli </option>
+                    </select><br><br>
+                    
+                    <label>Enter your city</label>
+                    <input type="text" list="city" >
+                    <datalist id="city">
+                        <option>pune</option>
+                        <option>mubai</option>
+                        <option>hydrabad</option>
+                    </datalist><br><br>
+                    
+                    <label> UPLOAD RESUME<br></label> <br>
+                    <input type="file" placeholder="no file choosen"> <br>
+
+                    <br> <br><br>
+                    <input type="submit" value="Register">
+            </fieldset>
+        </form>
+    </body>
+</html>
